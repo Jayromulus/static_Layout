@@ -1,0 +1,70 @@
+.main-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  font-size: 10pt;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 5px
+}
+
+#grid {
+  background-image: url('./assets/grid-1321215619689584902.png');
+  background-position: center;
+  background-size: cover;
+  width: 10px;
+  height: 10px;
+}
+
+#pfp {
+  background-image: url('./assets/default-avatar.png');
+  background-position: center;
+  background-size: cover;
+  width: 10px;
+  height: 10px;
+}
+
+.left-nav {
+  margin-right: auto;
+}
+
+.right-nav {
+  margin-left: auto
+}
+
+.blue {
+  color: #055acf;
+}
+
+.red {
+  color: #fa2534;
+}
+
+.yellow {
+  color: #fbb900;
+}
+
+.green {
+  color: #12af12;
+}
+
+.google {
+  font-size: 60pt;
+  text-align: center;
+  padding-top: 7.5%;
+}
+
+#input-field {
+  font-size: 15pt;
+  width: 25%
+}
